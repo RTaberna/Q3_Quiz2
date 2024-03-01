@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Marvel">
+
+    <title>Movie Reviews</title>
+
+    <style type="text/css">
+        body {
+            background-color: #1a1a2e;
+            color: #a8dadc;
+        }
+
+        h1 {
+            color: #ffffff;
+            text-align: center;
+            font-family: Marvel;
+        }
+
+        .table td {
+            vertical-align: middle;
+            width: 150%;
+        }
+
+        .thumbnail {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        #img1{
+            width: px;
+            height: 250px;
+        }
+
+        .navbar {
+            padding: 20;
+            font-family: Marvel;
+            font-size: 20px;
+        }
+
+        #brand{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+        <nav class="navbar navbar-expand-md bg-default">
+        
+    <a class="navbar-brand" href="#"><img src="https://cdn.iconscout.com/icon/free/png-256/free-marvel-282124.png?f=webp" id="brand"></a>
+
+    <div id="topnav">
+
+            <ul class="navbar-nav">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#HC">HOMECOMING</a>
+            </li>
+            <br>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#FFH">FAR FROM HOME</a>
+            </li>
+            <br>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#NWH">NO WAY HOME</a>
+            </li>
+            <br>
+
+            </ul>
+        </div>
+
+    <div class="search-container">
+        <form>
+            <input type="search" placeholder="Search" name="search" class="searchinput">
+            <buttom type="submit" class="btn-success" id="searchsub">Submit</buttom>
+        </form>
+    </div>
+
+
+    </nav>
+
+    <div class="container">
+        <h1>MOVIE REVIEWS</h1>
+       
+        <table class="table table-hover">
+            <tr>
+                <td style="width: 30%;" id="HC">
+                        <a href="https://www.imdb.com/title/tt2250912/?ref_=tt_mv_close" target="_blank">
+                            <img id="img1" class="thumbnail" src="https://m.media-amazon.com/images/M/MV5BODY2MTAzOTQ4M15BMl5BanBnXkFtZTgwNzg5MTE0MjI@._V1_FMjpg_UX1000_.jpg">
+                        </a>
+                </td>
+                <td class="align-middle" style="width: 70%;">
+                    <h4><strong>Spider-Man: Homecoming</strong></h4>
+                    <p>Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.</p>
+                </td>
+                <td>
+                    <p><strong>IMDb Rating:</strong> 7.4</p>
+                </td>
+            </tr>
+        </table><br><br>
+
+     
+        <table class="table table-hover">
+            <tr>
+                <td style="width: 30%;" id="FFH">
+                    <a href="https://www.imdb.com/title/tt6320628/?ref_=tt_mv_close" target="_blank">
+                        <img id="img1" class="thumbnail" src="https://m.media-amazon.com/images/M/MV5BODA5MTY0OWUtNjdlOC00NDI5LWE3NjYtNDM4MDI2MzE4OWUxXkEyXkFqcGdeQXVyOTAzODkzMjI@._V1_.jpg">
+                     </a>
+                </td>
+                <td class="align-middle" style="width: 70%;">
+                    <h4><strong>Spider-Man: Far From Home</strong></h4>
+                    <p>Following the events of Avengers: Endgame (2019), Spider-Man must step up to take on new threats in a world that has changed forever.</p>
+                </td>
+                <td>
+                    <p><strong>IMDb Rating</strong> 7.4</p>
+                </td>
+            </tr>
+        </table><br><br>
+
+        
+        <table class="table table-hover">
+            <tr> 
+                <td style="width: 30%;" id="NWH">
+                    <a href="https://www.imdb.com/title/tt10872600/?ref_=tt_mv_close"target="_blank"> 
+                        <img id="img1" class="thumbnail"src="https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg">
+                    </a> 
+                </td> 
+                <td class="align-middle" style="width: 70%;">
+                <h4><strong>Spider-Man: No Way Home</strong></h4> 
+                <p>With Spider-Man's identity now revealed, Peter asks Doctor Strange for
+                 help. When a spell goes wrong, dangerous foes from other worlds start
+                to appear, forcing Peter to discover what it truly means to be
+                Spider-Man.</p> 
+                </td> 
+        <td class="align-middle" style="width: 20%;">
+                    <p><strong>IMDb Rating:</strong> 8.2</p> 
+                </td> 
+            </tr> 
+        </table><br><br>
+
+    </div>
+
+    <center>
+    <div class="row">
+        <div class="col-md-6">
+            <textarea class="form-control" rows="5" id="comment" placeholder="
+        Enter your favorite of the three here"></textarea>
+    </div>
+</center>
+
+</body>
+
+</html>
